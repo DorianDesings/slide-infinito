@@ -13,18 +13,18 @@ img {
   max-width: 100%;
 }
 
-.slider {
-  display: flex;
-  transform: translateX(var(--slide-transform));
-  transition: var(--transition);
-}
-
-.slider__container {
+.slider-container {
   width: 500px;
   margin-left: auto;
   margin-right: auto;
   border: 4px solid #fff;
   overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transform: translateX(var(--slide-transform));
+  transition: var(--transition);
 }
 
 .slider__element {
